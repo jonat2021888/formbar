@@ -6,6 +6,6 @@ def countdown(t):
         time.sleep(1)
         t -= 1
 # input time in seconds
-t = input("Enter the time in seconds: 4")
+t = input("Time: 4")
 # function call
 countdown(int(t))
